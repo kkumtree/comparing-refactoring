@@ -1,0 +1,255 @@
+::group::Log message source detailssources=["/usr/local/airflow/logs/dag_id=stock_market/run_id=manual__2026-02-13T06:17:17+00:00/task_id=format_prices/attempt=1.log"] 
+::endgroup::
+[2026-02-13T06:17:28.291673Z] INFO - DAG bundles loaded: dags-folder
+[2026-02-13T06:17:28.292285Z] INFO - Filling up the DagBag from /usr/local/airflow/dags/stock_market.py
+[2026-02-13T06:17:29.335539Z] WARNING - The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.335686Z] WARNING - The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.335779Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.335860Z] WARNING - The `airflow.sensors.base.PokeReturnValue` attribute is deprecated. Please use `'airflow.sdk.bases.sensor.PokeReturnValue'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.335939Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336017Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336091Z] WARNING - The `airflow.models.baseoperator.BaseOperator` attribute is deprecated. Please use `'airflow.sdk.bases.operator.BaseOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336163Z] WARNING - The `airflow.models.abstractoperator.AbstractOperator` attribute is deprecated. Please use `'airflow.sdk.definitions._internal.abstractoperator.AbstractOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336237Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336308Z] WARNING - The `airflow.models.baseoperator.BaseOperator` attribute is deprecated. Please use `'airflow.sdk.bases.operator.BaseOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336385Z] WARNING - The `airflow.decorators.base.DecoratedOperator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.DecoratedOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336458Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336529Z] WARNING - The `airflow.decorators.base.DecoratedOperator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.DecoratedOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336597Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336665Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336731Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336799Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336866Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336932Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.336997Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337060Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337125Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337189Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337255Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337320Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337392Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337461Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.337526Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:29.371552Z] INFO - TaskInstance Details: dag_id=stock_market task_id=format_prices dagrun_id=manual__2026-02-13T06:17:17+00:00 map_index=-1 run_start_date=2026-02-13T06:17:28.269391Z try_number=1 op_classpath=["airflow.providers.docker.operators.docker.DockerOperator"] 
+[2026-02-13T06:17:29.392003Z] INFO - Starting docker container from image airflow/stock-app
+[2026-02-13T06:17:29.609502Z] INFO - Submit application /app/stock_transform.py to Spark master spark://spark-master:7077
+[2026-02-13T06:17:29.609630Z] INFO - Passing arguments stock-market/NVDA
+[2026-02-13T06:17:32.071862Z] INFO - 26/02/13 06:17:32 INFO SparkContext: Running Spark version 3.3.0
+[2026-02-13T06:17:32.140592Z] INFO - 26/02/13 06:17:32 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-02-13T06:17:32.217812Z] INFO - 26/02/13 06:17:32 INFO ResourceUtils: ==============================================================
+[2026-02-13T06:17:32.217965Z] INFO - 26/02/13 06:17:32 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-02-13T06:17:32.218239Z] INFO - 26/02/13 06:17:32 INFO ResourceUtils: ==============================================================
+[2026-02-13T06:17:32.218582Z] INFO - 26/02/13 06:17:32 INFO SparkContext: Submitted application: FormatStock
+[2026-02-13T06:17:32.242229Z] INFO - 26/02/13 06:17:32 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-02-13T06:17:32.258124Z] INFO - 26/02/13 06:17:32 INFO ResourceProfile: Limiting resource is cpu
+[2026-02-13T06:17:32.258531Z] INFO - 26/02/13 06:17:32 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-02-13T06:17:32.315643Z] INFO - 26/02/13 06:17:32 INFO SecurityManager: Changing view acls to: root
+[2026-02-13T06:17:32.316046Z] INFO - 26/02/13 06:17:32 INFO SecurityManager: Changing modify acls to: root
+[2026-02-13T06:17:32.316314Z] INFO - 26/02/13 06:17:32 INFO SecurityManager: Changing view acls groups to:
+[2026-02-13T06:17:32.316656Z] INFO - 26/02/13 06:17:32 INFO SecurityManager: Changing modify acls groups to:
+[2026-02-13T06:17:32.317005Z] INFO - 26/02/13 06:17:32 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+[2026-02-13T06:17:32.528025Z] INFO - 26/02/13 06:17:32 INFO Utils: Successfully started service 'sparkDriver' on port 42449.
+[2026-02-13T06:17:32.565013Z] INFO - 26/02/13 06:17:32 INFO SparkEnv: Registering MapOutputTracker
+[2026-02-13T06:17:32.600463Z] INFO - 26/02/13 06:17:32 INFO SparkEnv: Registering BlockManagerMaster
+[2026-02-13T06:17:32.658485Z] INFO - 26/02/13 06:17:32 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-02-13T06:17:32.658756Z] INFO - 26/02/13 06:17:32 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-02-13T06:17:32.663414Z] INFO - 26/02/13 06:17:32 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-02-13T06:17:32.690820Z] INFO - 26/02/13 06:17:32 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-2ebda90a-754d-45db-a2a5-69e48ac43eb7
+[2026-02-13T06:17:32.709650Z] INFO - 26/02/13 06:17:32 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2026-02-13T06:17:32.725533Z] INFO - 26/02/13 06:17:32 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-02-13T06:17:32.937823Z] INFO - 26/02/13 06:17:32 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-02-13T06:17:33.063310Z] INFO - 26/02/13 06:17:33 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2026-02-13T06:17:33.115816Z] INFO - 26/02/13 06:17:33 INFO TransportClientFactory: Successfully created connection to spark-master/172.20.0.3:7077 after 34 ms (0 ms spent in bootstraps)
+[2026-02-13T06:17:33.251326Z] INFO - 26/02/13 06:17:33 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20260213061733-0000
+[2026-02-13T06:17:33.259766Z] INFO - 26/02/13 06:17:33 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46543.
+[2026-02-13T06:17:33.259900Z] INFO - 26/02/13 06:17:33 INFO NettyBlockTransferService: Server created on a6637f865df5:46543
+[2026-02-13T06:17:33.261878Z] INFO - 26/02/13 06:17:33 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-02-13T06:17:33.269022Z] INFO - 26/02/13 06:17:33 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, a6637f865df5, 46543, None)
+[2026-02-13T06:17:33.272109Z] INFO - 26/02/13 06:17:33 INFO BlockManagerMasterEndpoint: Registering block manager a6637f865df5:46543 with 366.3 MiB RAM, BlockManagerId(driver, a6637f865df5, 46543, None)
+[2026-02-13T06:17:33.274656Z] INFO - 26/02/13 06:17:33 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, a6637f865df5, 46543, None)
+[2026-02-13T06:17:33.275727Z] INFO - 26/02/13 06:17:33 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, a6637f865df5, 46543, None)
+[2026-02-13T06:17:33.276610Z] INFO - 26/02/13 06:17:33 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260213061733-0000/0 on worker-20260213061424-172.20.0.7-43865 (172.20.0.7:43865) with 16 core(s)
+[2026-02-13T06:17:33.277834Z] INFO - 26/02/13 06:17:33 INFO StandaloneSchedulerBackend: Granted executor ID app-20260213061733-0000/0 on hostPort 172.20.0.7:43865 with 16 core(s), 1024.0 MiB RAM
+[2026-02-13T06:17:33.403362Z] INFO - 26/02/13 06:17:33 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260213061733-0000/0 is now RUNNING
+[2026-02-13T06:17:33.465060Z] INFO - 26/02/13 06:17:33 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-02-13T06:17:33.756221Z] INFO - 26/02/13 06:17:33 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2026-02-13T06:17:33.766053Z] INFO - 26/02/13 06:17:33 INFO SharedState: Warehouse path is 'file:/spark-warehouse'.
+[2026-02-13T06:17:34.887963Z] INFO - 26/02/13 06:17:34 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+[2026-02-13T06:17:34.902888Z] INFO - 26/02/13 06:17:34 INFO MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+[2026-02-13T06:17:34.902984Z] INFO - 26/02/13 06:17:34 INFO MetricsSystemImpl: s3a-file-system metrics system started
+[2026-02-13T06:17:35.960477Z] INFO - 26/02/13 06:17:35 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.20.0.7:48718) with ID 0,  ResourceProfileId 0
+[2026-02-13T06:17:36.026136Z] INFO - 26/02/13 06:17:36 INFO BlockManagerMasterEndpoint: Registering block manager 172.20.0.7:39777 with 366.3 MiB RAM, BlockManagerId(0, 172.20.0.7, 39777, None)
+[2026-02-13T06:19:45.413205Z] INFO - 26/02/13 06:19:45 WARN FileStreamSink: Assume no metadata directory. Error while looking for metadata directory in the path: s3a://stock-market/NVDA/prices.json.
+[2026-02-13T06:19:45.413327Z] INFO - org.apache.hadoop.fs.s3a.AWSClientIOException: getFileStatus on s3a://stock-market/NVDA/prices.json: com.amazonaws.SdkClientException: Unable to execute HTTP request: host.docker.internal: Unable to execute HTTP request: host.docker.internal
+[2026-02-13T06:19:45.413379Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AUtils.translateException(S3AUtils.java:214)
+[2026-02-13T06:19:45.413415Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AUtils.translateException(S3AUtils.java:175)
+[2026-02-13T06:19:45.413447Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.s3GetFileStatus(S3AFileSystem.java:3861)
+[2026-02-13T06:19:45.413475Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.innerGetFileStatus(S3AFileSystem.java:3688)
+[2026-02-13T06:19:45.413502Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.lambda$isDirectory$35(S3AFileSystem.java:4724)
+[2026-02-13T06:19:45.413527Z] INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.lambda$trackDurationOfOperation$5(IOStatisticsBinding.java:499)
+[2026-02-13T06:19:45.413555Z] INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.trackDuration(IOStatisticsBinding.java:444)
+[2026-02-13T06:19:45.413581Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.trackDurationAndSpan(S3AFileSystem.java:2337)
+[2026-02-13T06:19:45.413607Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.trackDurationAndSpan(S3AFileSystem.java:2356)
+[2026-02-13T06:19:45.413632Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.isDirectory(S3AFileSystem.java:4722)
+[2026-02-13T06:19:45.413657Z] INFO - 	at org.apache.spark.sql.execution.streaming.FileStreamSink$.hasMetadata(FileStreamSink.scala:54)
+[2026-02-13T06:19:45.413683Z] INFO - 	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:370)
+[2026-02-13T06:19:45.413707Z] INFO - 	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:228)
+[2026-02-13T06:19:45.413731Z] INFO - 	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:210)
+[2026-02-13T06:19:45.413754Z] INFO - 	at scala.Option.getOrElse(Option.scala:189)
+[2026-02-13T06:19:45.413779Z] INFO - 	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:210)
+[2026-02-13T06:19:45.413804Z] INFO - 	at org.apache.spark.sql.DataFrameReader.json(DataFrameReader.scala:361)
+[2026-02-13T06:19:45.413828Z] INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2026-02-13T06:19:45.413851Z] INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2026-02-13T06:19:45.413875Z] INFO - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2026-02-13T06:19:45.413898Z] INFO - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2026-02-13T06:19:45.413921Z] INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2026-02-13T06:19:45.413944Z] INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2026-02-13T06:19:45.413967Z] INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2026-02-13T06:19:45.413990Z] INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2026-02-13T06:19:45.414013Z] INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2026-02-13T06:19:45.414037Z] INFO - 	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+[2026-02-13T06:19:45.414061Z] INFO - 	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+[2026-02-13T06:19:45.414091Z] INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2026-02-13T06:19:45.414116Z] INFO - Caused by: com.amazonaws.SdkClientException: Unable to execute HTTP request: host.docker.internal
+[2026-02-13T06:19:45.414139Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleRetryableException(AmazonHttpClient.java:1207)
+[2026-02-13T06:19:45.414162Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1153)
+[2026-02-13T06:19:45.414185Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:802)
+[2026-02-13T06:19:45.414321Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:770)
+[2026-02-13T06:19:45.414353Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:744)
+[2026-02-13T06:19:45.414388Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:704)
+[2026-02-13T06:19:45.414416Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:686)
+[2026-02-13T06:19:45.414448Z] INFO - 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:550)
+[2026-02-13T06:19:45.414473Z] INFO - 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:530)
+[2026-02-13T06:19:45.414496Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5437)
+[2026-02-13T06:19:45.414520Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5384)
+[2026-02-13T06:19:45.414545Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5378)
+[2026-02-13T06:19:45.414569Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.listObjectsV2(AmazonS3Client.java:970)
+[2026-02-13T06:19:45.414593Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.lambda$listObjects$11(S3AFileSystem.java:2595)
+[2026-02-13T06:19:45.414650Z] INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.lambda$trackDurationOfOperation$5(IOStatisticsBinding.java:499)
+[2026-02-13T06:19:45.414683Z] INFO - 	at org.apache.hadoop.fs.s3a.Invoker.retryUntranslated(Invoker.java:414)
+[2026-02-13T06:19:45.414710Z] INFO - 	at org.apache.hadoop.fs.s3a.Invoker.retryUntranslated(Invoker.java:377)
+[2026-02-13T06:19:45.414735Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.listObjects(S3AFileSystem.java:2586)
+[2026-02-13T06:19:45.414760Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.s3GetFileStatus(S3AFileSystem.java:3832)
+[2026-02-13T06:19:45.414783Z] INFO - 	... 26 more
+[2026-02-13T06:19:45.414807Z] INFO - Caused by: java.net.UnknownHostException: host.docker.internal
+[2026-02-13T06:19:45.414831Z] INFO - 	at java.net.InetAddress.getAllByName0(InetAddress.java:1282)
+[2026-02-13T06:19:45.414855Z] INFO - 	at java.net.InetAddress.getAllByName(InetAddress.java:1194)
+[2026-02-13T06:19:45.414878Z] INFO - 	at java.net.InetAddress.getAllByName(InetAddress.java:1128)
+[2026-02-13T06:19:45.414902Z] INFO - 	at com.amazonaws.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:27)
+[2026-02-13T06:19:45.414925Z] INFO - 	at com.amazonaws.http.DelegatingDnsResolver.resolve(DelegatingDnsResolver.java:38)
+[2026-02-13T06:19:45.414948Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+[2026-02-13T06:19:45.414971Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+[2026-02-13T06:19:45.414994Z] INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2026-02-13T06:19:45.415017Z] INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2026-02-13T06:19:45.415047Z] INFO - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2026-02-13T06:19:45.415073Z] INFO - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2026-02-13T06:19:45.415097Z] INFO - 	at com.amazonaws.http.conn.ClientConnectionManagerFactory$Handler.invoke(ClientConnectionManagerFactory.java:76)
+[2026-02-13T06:19:45.415120Z] INFO - 	at com.amazonaws.http.conn.$Proxy33.connect(Unknown Source)
+[2026-02-13T06:19:45.415143Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+[2026-02-13T06:19:45.415167Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+[2026-02-13T06:19:45.415190Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+[2026-02-13T06:19:45.415213Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+[2026-02-13T06:19:45.415235Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+[2026-02-13T06:19:45.415258Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+[2026-02-13T06:19:45.415281Z] INFO - 	at com.amazonaws.http.apache.client.impl.SdkHttpClient.execute(SdkHttpClient.java:72)
+[2026-02-13T06:19:45.415304Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1331)
+[2026-02-13T06:19:45.415327Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1145)
+[2026-02-13T06:19:45.415350Z] INFO - 	... 43 more
+[2026-02-13T06:21:51.853599Z] INFO - Traceback (most recent call last):
+[2026-02-13T06:21:51.853749Z] INFO -   File "/app/stock_transform.py", line 57, in <module>
+[2026-02-13T06:21:51.853796Z] INFO -     app()
+[2026-02-13T06:21:51.853828Z] INFO -   File "/app/stock_transform.py", line 39, in app
+[2026-02-13T06:21:51.853883Z] INFO -     .json(f"s3a://{os.getenv('SPARK_APPLICATION_ARGS')}/prices.json")
+[2026-02-13T06:21:51.853919Z] INFO -   File "/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 284, in json
+[2026-02-13T06:21:51.853951Z] INFO -   File "/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2026-02-13T06:21:51.853979Z] INFO -   File "/spark/python/lib/pyspark.zip/pyspark/sql/utils.py", line 190, in deco
+[2026-02-13T06:21:51.854021Z] INFO -   File "/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/protocol.py", line 328, in get_return_value
+[2026-02-13T06:21:51.854622Z] INFO - py4j.protocol.Py4JJavaError: An error occurred while calling o41.json.
+[2026-02-13T06:21:51.854684Z] INFO - : org.apache.hadoop.fs.s3a.AWSClientIOException: getFileStatus on s3a://stock-market/NVDA/prices.json: com.amazonaws.SdkClientException: Unable to execute HTTP request: host.docker.internal: Unable to execute HTTP request: host.docker.internal
+[2026-02-13T06:21:51.854723Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AUtils.translateException(S3AUtils.java:214)
+[2026-02-13T06:21:51.854755Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AUtils.translateException(S3AUtils.java:175)
+[2026-02-13T06:21:51.854786Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.s3GetFileStatus(S3AFileSystem.java:3799)
+[2026-02-13T06:21:51.854814Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.innerGetFileStatus(S3AFileSystem.java:3688)
+[2026-02-13T06:21:51.854841Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.lambda$exists$34(S3AFileSystem.java:4703)
+[2026-02-13T06:21:51.854867Z] INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.lambda$trackDurationOfOperation$5(IOStatisticsBinding.java:499)
+[2026-02-13T06:21:51.854894Z] INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.trackDuration(IOStatisticsBinding.java:444)
+[2026-02-13T06:21:51.854921Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.trackDurationAndSpan(S3AFileSystem.java:2337)
+[2026-02-13T06:21:51.854947Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.trackDurationAndSpan(S3AFileSystem.java:2356)
+[2026-02-13T06:21:51.854973Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.exists(S3AFileSystem.java:4701)
+[2026-02-13T06:21:51.854998Z] INFO - 	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$4(DataSource.scala:784)
+[2026-02-13T06:21:51.855025Z] INFO - 	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$4$adapted(DataSource.scala:782)
+[2026-02-13T06:21:51.855051Z] INFO - 	at org.apache.spark.util.ThreadUtils$.$anonfun$parmap$2(ThreadUtils.scala:372)
+[2026-02-13T06:21:51.855083Z] INFO - 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[2026-02-13T06:21:51.855111Z] INFO - 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[2026-02-13T06:21:51.855138Z] INFO - 	at scala.util.Success.map(Try.scala:213)
+[2026-02-13T06:21:51.855164Z] INFO - 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[2026-02-13T06:21:51.855188Z] INFO - 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[2026-02-13T06:21:51.855213Z] INFO - 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[2026-02-13T06:21:51.855238Z] INFO - 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[2026-02-13T06:21:51.855263Z] INFO - 	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)
+[2026-02-13T06:21:51.855287Z] INFO - 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+[2026-02-13T06:21:51.855312Z] INFO - 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+[2026-02-13T06:21:51.855336Z] INFO - 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+[2026-02-13T06:21:51.855361Z] INFO - 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+[2026-02-13T06:21:51.855398Z] INFO - Caused by: com.amazonaws.SdkClientException: Unable to execute HTTP request: host.docker.internal
+[2026-02-13T06:21:51.855426Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleRetryableException(AmazonHttpClient.java:1207)
+[2026-02-13T06:21:51.855452Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1153)
+[2026-02-13T06:21:51.855477Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:802)
+[2026-02-13T06:21:51.855501Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:770)
+[2026-02-13T06:21:51.855526Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:744)
+[2026-02-13T06:21:51.855566Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:704)
+[2026-02-13T06:21:51.855594Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:686)
+[2026-02-13T06:21:51.855620Z] INFO - 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:550)
+[2026-02-13T06:21:51.855645Z] INFO - 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:530)
+[2026-02-13T06:21:51.855670Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5437)
+[2026-02-13T06:21:51.855694Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5384)
+[2026-02-13T06:21:51.855718Z] INFO - 	at com.amazonaws.services.s3.AmazonS3Client.getObjectMetadata(AmazonS3Client.java:1367)
+[2026-02-13T06:21:51.855743Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.lambda$getObjectMetadata$10(S3AFileSystem.java:2545)
+[2026-02-13T06:21:51.855770Z] INFO - 	at org.apache.hadoop.fs.s3a.Invoker.retryUntranslated(Invoker.java:414)
+[2026-02-13T06:21:51.855794Z] INFO - 	at org.apache.hadoop.fs.s3a.Invoker.retryUntranslated(Invoker.java:377)
+[2026-02-13T06:21:51.855819Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.getObjectMetadata(S3AFileSystem.java:2533)
+[2026-02-13T06:21:51.855844Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.getObjectMetadata(S3AFileSystem.java:2513)
+[2026-02-13T06:21:51.855868Z] INFO - 	at org.apache.hadoop.fs.s3a.S3AFileSystem.s3GetFileStatus(S3AFileSystem.java:3776)
+[2026-02-13T06:21:51.855892Z] INFO - 	... 22 more
+[2026-02-13T06:21:51.855938Z] INFO - Caused by: java.net.UnknownHostException: host.docker.internal
+[2026-02-13T06:21:51.855971Z] INFO - 	at java.net.InetAddress.getAllByName0(InetAddress.java:1282)
+[2026-02-13T06:21:51.855997Z] INFO - 	at java.net.InetAddress.getAllByName(InetAddress.java:1194)
+[2026-02-13T06:21:51.856023Z] INFO - 	at java.net.InetAddress.getAllByName(InetAddress.java:1128)
+[2026-02-13T06:21:51.856047Z] INFO - 	at com.amazonaws.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:27)
+[2026-02-13T06:21:51.856072Z] INFO - 	at com.amazonaws.http.DelegatingDnsResolver.resolve(DelegatingDnsResolver.java:38)
+[2026-02-13T06:21:51.856097Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+[2026-02-13T06:21:51.856124Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+[2026-02-13T06:21:51.856148Z] INFO - 	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+[2026-02-13T06:21:51.856174Z] INFO - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2026-02-13T06:21:51.856200Z] INFO - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2026-02-13T06:21:51.856225Z] INFO - 	at com.amazonaws.http.conn.ClientConnectionManagerFactory$Handler.invoke(ClientConnectionManagerFactory.java:76)
+[2026-02-13T06:21:51.856249Z] INFO - 	at com.amazonaws.http.conn.$Proxy33.connect(Unknown Source)
+[2026-02-13T06:21:51.856274Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+[2026-02-13T06:21:51.856298Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+[2026-02-13T06:21:51.856322Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+[2026-02-13T06:21:51.856347Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+[2026-02-13T06:21:51.856377Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+[2026-02-13T06:21:51.856405Z] INFO - 	at com.amazonaws.thirdparty.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+[2026-02-13T06:21:51.856430Z] INFO - 	at com.amazonaws.http.apache.client.impl.SdkHttpClient.execute(SdkHttpClient.java:72)
+[2026-02-13T06:21:51.856455Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1331)
+[2026-02-13T06:21:51.856480Z] INFO - 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1145)
+[2026-02-13T06:21:51.856505Z] INFO - 	... 38 more
+[2026-02-13T06:21:51.856531Z] INFO - 
+[2026-02-13T06:21:51.878699Z] INFO - 26/02/13 06:21:51 INFO SparkContext: Invoking stop() from shutdown hook
+[2026-02-13T06:21:51.886300Z] INFO - 26/02/13 06:21:51 INFO SparkUI: Stopped Spark web UI at http://a6637f865df5:4040
+[2026-02-13T06:21:51.888560Z] INFO - 26/02/13 06:21:51 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2026-02-13T06:21:51.888874Z] INFO - 26/02/13 06:21:51 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+[2026-02-13T06:21:51.900318Z] INFO - 26/02/13 06:21:51 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2026-02-13T06:21:51.910672Z] INFO - 26/02/13 06:21:51 INFO MemoryStore: MemoryStore cleared
+[2026-02-13T06:21:51.910839Z] INFO - 26/02/13 06:21:51 INFO BlockManager: BlockManager stopped
+[2026-02-13T06:21:51.918749Z] INFO - 26/02/13 06:21:51 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2026-02-13T06:21:51.920418Z] INFO - 26/02/13 06:21:51 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2026-02-13T06:21:51.926071Z] INFO - 26/02/13 06:21:51 INFO SparkContext: Successfully stopped SparkContext
+[2026-02-13T06:21:51.926312Z] INFO - 26/02/13 06:21:51 INFO ShutdownHookManager: Shutdown hook called
+[2026-02-13T06:21:51.926922Z] INFO - 26/02/13 06:21:51 INFO ShutdownHookManager: Deleting directory /tmp/spark-2b3c3c6d-9604-4be9-b8f9-5589c3973e6b
+[2026-02-13T06:21:51.929654Z] INFO - 26/02/13 06:21:51 INFO ShutdownHookManager: Deleting directory /tmp/spark-292cc3fc-efaa-4b38-b4cd-3dd88866ed8f/pyspark-daa94639-ef5a-41ac-989f-872bc0b8c95b
+[2026-02-13T06:21:51.932183Z] INFO - 26/02/13 06:21:51 INFO ShutdownHookManager: Deleting directory /tmp/spark-292cc3fc-efaa-4b38-b4cd-3dd88866ed8f
+[2026-02-13T06:21:51.937709Z] INFO - 26/02/13 06:21:51 INFO MetricsSystemImpl: Stopping s3a-file-system metrics system...
+[2026-02-13T06:21:51.937941Z] INFO - 26/02/13 06:21:51 INFO MetricsSystemImpl: s3a-file-system metrics system stopped.
+[2026-02-13T06:21:51.938024Z] INFO - 26/02/13 06:21:51 INFO MetricsSystemImpl: s3a-file-system metrics system shutdown complete.
+[2026-02-13T06:21:52.074862Z] INFO - Pushing xcomti=RuntimeTaskInstance(id=UUID('019c55a5-91c2-7fb9-9756-54e7b61e9fcc'), task_id='format_prices', dag_id='stock_market', run_id='manual__2026-02-13T06:17:17+00:00', try_number=1, dag_version_id=UUID('019c55a3-74a6-7c45-beca-7e757a369a32'), map_index=-1, hostname='16d6944141ca', context_carrier={}, task=<Task(DockerOperator): format_prices>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 2, 13, 6, 17, 28, 269391, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None) 

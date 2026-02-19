@@ -1,0 +1,21 @@
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+
+
+
+# [Added/추가됨] Docker provider for DockerOperator (to be modernized) / DockerOperator 사용을 위한 Docker 프로바이더 (현대화 예정)
+apache-airflow-providers-docker>=4.0.0
+
+# [Added/추가됨] Amazon provider for MinIO connection / MinIO 연결을 위한 Amazon 프로바이더
+apache-airflow-providers-amazon
+
+# [Added/추가됨] Postgres provider for database connection / 데이터베이스 연결을 위한 Postgres 프로바이더
+apache-airflow-providers-postgres
+
+# [Added/추가됨] Common SQL provider for SQLExecuteQueryOperator / SQLExecuteQueryOperator 사용을 위한 공통 SQL 프로바이더
+apache-airflow-providers-common-sql
+
+# [Added/추가됨] UI support for Hooks (optional but requested) / 후크 UI 지원 (선택사항이나 요청됨)
+flask-appbuilder
+
+# [Added/추가됨] MinIO SDK for tasks.py / tasks.py에서 사용하는 MinIO SDK
+minio

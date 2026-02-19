@@ -1,0 +1,106 @@
+services:
+
+  # [Ported/이관됨] Existing Astro services network configuration / 기존 Astro 서비스 네트워크 설정
+  # [Modified/수정됨] Renamed 'webserver' to 'api-server' for Airflow 3 compatibility
+  api-server:
+    networks:
+      - ndsnet
+    environment:
+      AIRFLOW__CORE__ALLOWED_DESERIALIZATION_CLASSES: 'airflow\.* astro\.*'
+      AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'false'
+
+  scheduler:
+    networks:
+      - ndsnet
+    environment:
+      AIRFLOW__CORE__ALLOWED_DESERIALIZATION_CLASSES: 'airflow\.* astro\.*'
+      AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'false'
+
+  triggerer:
+    networks:
+      - ndsnet
+    environment:
+      AIRFLOW__CORE__ALLOWED_DESERIALIZATION_CLASSES: 'airflow\.* astro\.*'
+      AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'false'
+
+  # [Ported/이관됨] MinIO service for object storage / 객체 스토리지를 위한 MinIO 서비스
+  minio:
+    image: minio/minio:RELEASE.2025-09-07T16-13-09Z
+    container_name: minio
+    hostname: minio
+    restart: always
+    volumes:
+      - ./include/data/minio:/data
+    ports:
+      - 9000:9000
+      - 9001:9001
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9000/minio/health/live" ]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - ndsnet
+
+  # [Ported/이관됨] Postgres service configuration / Postgres 서비스 설정
+  postgres:
+    networks:
+      - ndsnet
+
+  # [Ported/이관됨] Spark Master node / Spark 마스터 노드
+  spark-master:
+    image: airflow/spark-master
+    build: ./spark/master
+    container_name: spark-master
+    ports:
+      - "8082:8080"
+      - "7077:7077"
+    environment:
+      - INIT_DAEMON_STEP=setup_spark
+    networks:
+      - ndsnet
+
+  # [Ported/이관됨] Spark Worker node / Spark 워커 노드
+  spark-worker:
+    image: airflow/spark-worker
+    build: ./spark/worker
+    container_name: spark-worker
+    depends_on:
+      - spark-master
+    ports:
+      - "8081:8081"
+    environment:
+      - "SPARK_MASTER=spark://spark-master:7077"
+    networks:
+      - ndsnet
+
+  # [Ported/이관됨] Metabase for checking results / 결과 확인을 위한 Metabase
+  metabase:
+    image: metabase/metabase:v0.58.4
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - ./include/data/metabase:/metabase-data
+    networks:
+      - ndsnet
+
+  # [Ported/이관됨] Docker Proxy for DockerOperator / DockerOperator를 위한 Docker 프록시
+  docker-proxy:
+    image: alpine/socat
+    hostname: docker-proxy
+    command: "TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock"
+    ports:
+      - "2376:2375"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - ndsnet
+
+networks:
+  ndsnet:
+    driver: bridge

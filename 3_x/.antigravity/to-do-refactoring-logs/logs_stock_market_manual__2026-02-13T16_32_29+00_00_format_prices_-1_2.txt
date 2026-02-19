@@ -1,0 +1,37 @@
+::group::Log message source detailssources=["/usr/local/airflow/logs/dag_id=stock_market/run_id=manual__2026-02-13T16:32:29+00:00/task_id=format_prices/attempt=2.log"] 
+::endgroup::
+[2026-02-15T10:02:54.308954Z] INFO - DAG bundles loaded: dags-folder
+[2026-02-15T10:02:54.309656Z] INFO - Filling up the DagBag from /usr/local/airflow/dags/stock_market.py
+[2026-02-15T10:02:55.413808Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.413918Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.413986Z] WARNING - The `airflow.models.baseoperator.BaseOperator` attribute is deprecated. Please use `'airflow.sdk.bases.operator.BaseOperator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414046Z] WARNING - The `airflow.models.abstractoperator.AbstractOperator` attribute is deprecated. Please use `'airflow.sdk.definitions._internal.abstractoperator.AbstractOperator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414104Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414161Z] WARNING - The `airflow.models.baseoperator.BaseOperator` attribute is deprecated. Please use `'airflow.sdk.bases.operator.BaseOperator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414217Z] WARNING - The `airflow.decorators.base.DecoratedOperator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.DecoratedOperator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414269Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414321Z] WARNING - The `airflow.decorators.base.DecoratedOperator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.DecoratedOperator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414373Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414424Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414476Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414526Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414577Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414627Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414675Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414726Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414776Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414825Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414875Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414933Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.414984Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.415031Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-15T10:02:55.473988Z] INFO - TaskInstance Details: dag_id=stock_market task_id=format_prices dagrun_id=manual__2026-02-13T16:32:29+00:00 map_index=-1 run_start_date=2026-02-15T10:02:49.754928Z try_number=2 op_classpath=["airflow.providers.docker.operators.docker.DockerOperator"] 
+[2026-02-15T10:02:55.478600Z] ERROR - Failed to establish connection to Docker host tcp://docker-proxy:2375: Error while fetching server API version: HTTPConnectionPool(host='docker-proxy', port=2375): Max retries exceeded with url: /version (Caused by NameResolutionError("HTTPConnection(host='docker-proxy', port=2375): Failed to resolve 'docker-proxy' ([Errno -3] Temporary failure in name resolution)"))
+[2026-02-15T10:02:55.478789Z] ERROR - Task failed with exceptionAirflowException: Failed to establish connection to any given Docker hosts.
+    File /usr/local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py, line 1004 in run
+    File /usr/local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py, line 1405 in _execute_task
+    File /usr/local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py, line 417 in wrapper
+    File /usr/local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py, line 489 in execute
+    File /usr/local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py, line 363 in cli
+    File /usr/local/lib/python3.12/functools.py, line 998 in __get__
+    File /usr/local/lib/python3.12/site-packages/airflow/providers/docker/hooks/docker.py, line 160 in api_client

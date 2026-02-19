@@ -1,0 +1,18 @@
+minio:
+  Connection Type: Amazon Web Services
+  AWS Access Key ID: minio
+  AWS Secret Access Key: minio123
+  Extra: {"endpoint_url": "http://minio:9000"}
+
+
+postgres:
+  Connection Type: Postgres
+  Host: postgres
+  Login: postgres
+  Password: postgres
+  Port: 5432
+
+stock_api:
+  Connection Type: HTTP
+  Host: https://query1.finance.yahoo.com
+  Extra: {"endpoint": "/v8/finance/chart/","headers": {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0", "Accept": "application/json"}}

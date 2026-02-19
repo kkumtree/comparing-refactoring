@@ -1,0 +1,37 @@
+::group::Log message source detailssources=["/usr/local/airflow/logs/dag_id=stock_market/run_id=manual__2026-02-13T06:17:17+00:00/task_id=is_api_available/attempt=1.log"] 
+::endgroup::
+[2026-02-13T06:17:22.539589Z] INFO - DAG bundles loaded: dags-folder
+[2026-02-13T06:17:22.540086Z] INFO - Filling up the DagBag from /usr/local/airflow/dags/stock_market.py
+[2026-02-13T06:17:23.592072Z] WARNING - The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592180Z] WARNING - The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592252Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592318Z] WARNING - The `airflow.sensors.base.PokeReturnValue` attribute is deprecated. Please use `'airflow.sdk.bases.sensor.PokeReturnValue'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592391Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592454Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592510Z] WARNING - The `airflow.models.baseoperator.BaseOperator` attribute is deprecated. Please use `'airflow.sdk.bases.operator.BaseOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592564Z] WARNING - The `airflow.models.abstractoperator.AbstractOperator` attribute is deprecated. Please use `'airflow.sdk.definitions._internal.abstractoperator.AbstractOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592617Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592672Z] WARNING - The `airflow.models.baseoperator.BaseOperator` attribute is deprecated. Please use `'airflow.sdk.bases.operator.BaseOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592726Z] WARNING - The `airflow.decorators.base.DecoratedOperator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.DecoratedOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592780Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592834Z] WARNING - The `airflow.decorators.base.DecoratedOperator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.DecoratedOperator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592885Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592936Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.592990Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593042Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593094Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593146Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593197Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593260Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593318Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593376Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593430Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593482Z] WARNING - The `airflow.decorators.base.TaskDecorator` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.TaskDecorator'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593535Z] WARNING - The `airflow.decorators.base.get_unique_task_id` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.get_unique_task_id'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593586Z] WARNING - The `airflow.decorators.base.task_decorator_factory` attribute is deprecated. Please use `'airflow.sdk.bases.decorator.task_decorator_factory'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.593637Z] WARNING - The `airflow.hooks.base.BaseHook` attribute is deprecated. Please use `'airflow.sdk.bases.hook.BaseHook'`.category=DeprecatedImportWarning 
+[2026-02-13T06:17:23.628475Z] INFO - TaskInstance Details: dag_id=stock_market task_id=is_api_available dagrun_id=manual__2026-02-13T06:17:17+00:00 map_index=-1 run_start_date=2026-02-13T06:17:20.795797Z try_number=1 op_classpath=["airflow.providers.standard.decorators.sensor.DecoratedSensorOperator","airflow.providers.standard.sensors.python.PythonSensor","airflow.sdk.bases.sensor.BaseSensorOperator"] 
+[2026-02-13T06:17:23.630166Z] INFO - Poking callable: <function stock_market.<locals>.is_api_available at 0x705104c83100>
+[2026-02-13T06:17:23.636827Z] INFO - https://query1.finance.yahoo.com/v8/finance/chart/
+[2026-02-13T06:17:23.953198Z] INFO - Success criteria met. Exiting.
+[2026-02-13T06:17:23.953433Z] INFO - Pushing xcomti=RuntimeTaskInstance(id=UUID('019c55a5-91c4-72dd-9a55-dbd2ecc64223'), task_id='is_api_available', dag_id='stock_market', run_id='manual__2026-02-13T06:17:17+00:00', try_number=1, dag_version_id=UUID('019c55a3-74a6-7c45-beca-7e757a369a32'), map_index=-1, hostname='16d6944141ca', context_carrier={}, task=<Task(DecoratedSensorOperator): is_api_available>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 2, 13, 6, 17, 20, 795797, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None) 
